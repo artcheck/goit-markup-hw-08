@@ -1,0 +1,17 @@
+$primaryBackgroundColor: #2f303a;
+$titleTextColor: #212121;
+$aditionalTextColor: #757575;
+$accentColor: #2196f3;
+$primaryWhiteColor: #ffffff;
+$additionalBackgroundColour: #f5f4fa;
+$stockIconColor: #AFB1B8;
+$primaryFont: "Roboto" ;
+$secondaryFont: "Raleway";
+$sectionTitleFontSize: 36px;
+
+
+
+@media screen and (min-width: 900px) {
+    .hero-button {
+      display: none;
+    }

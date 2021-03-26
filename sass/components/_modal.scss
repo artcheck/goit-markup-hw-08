@@ -1,0 +1,231 @@
+.overlay {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../images/hero_img.jpg");
+  background-size: cover;
+  background-position: center;
+  outline: 1px solid black;
+  background-color: $primaryBackgroundColor;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  background-color: $primaryWhiteColor;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &-close__button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 1px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  &-close__icon {
+    width: 17px;
+    height: 17px;
+    padding: 1px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+  }
+
+  &-close__icon:hover {
+    cursor: pointer;
+    fill: $accentColor;
+  }
+}
+
+.modal {
+  &-form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  &-form__title {
+    padding-bottom: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: $titleTextColor;
+  }
+
+  &-form-label {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 32px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+  }
+
+  &-form-input {
+    height: 20px;
+    width: 100%;
+    border-radius: 2%;
+    padding: 20px 0px 20px 40px;
+    margin: 5px 0px 10px 0px;
+    color: $aditionalTextColor;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+
+  &-form_textarea {
+    height: 120px;
+    padding: 10px 16px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    border-radius: 2%;
+    margin: 5px 0px 10px 0px;
+    color: $aditionalTextColor;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+  }
+
+  &-form-textarea {
+    height: 20px;
+    width: 440px;
+    margin: 10px 0px;
+    margin: 5px 0px 10px 0px;
+    color: $aditionalTextColor;
+    border-color: $aditionalTextColor;
+    opacity: 0.5;
+  }
+
+  &-form_textarea:focus,
+  &-form-input:focus,
+  &-form_textarea:hover,
+  &-form-input:hover {
+    outline: none;
+    border-color: $accentColor;
+  }
+
+  &-form-input:focus + .form-icon_contact,
+  &-form-input:hover + .form-icon_contact {
+    fill: $accentColor;
+  }
+
+  &-form-input:hover &-form-icon_contact {
+    color: $accentColor;
+    cursor: pointer;
+    fill: $accentColor;
+  }
+}
+
+.form {
+  &-condition_field {
+    display: flex;
+    align-items: center;
+    margin: 20px 15px 30px 5px;
+  }
+
+  &-checkbox {
+    display: flex;
+    margin-right: 10px;
+    color: $aditionalTextColor;
+  }
+
+  &-condition_link {
+    padding-left: 5px;
+    color: #2196f3;
+  }
+}
+
+.submit {
+  &-form_button {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-button {
+    width: 200px;
+    height: 50px;
+    background-color: $accentColor;
+    color: $primaryWhiteColor;
+    border: none;
+  }
+}
+
+.form {
+  &-icon_user {
+    width: 18px;
+    height: 18px;
+    position: fixed;
+    top: 104px;
+    left: 50px;
+  }
+
+  &-icon_tel {
+    width: 18px;
+    height: 18px;
+    position: fixed;
+    top: 177px;
+    left: 50px;
+  }
+
+  &-icon_envelope {
+    width: 18px;
+    height: 18px;
+    position: fixed;
+    top: 248px;
+    left: 50px;
+  }
+
+  &-icon_contact:hover {
+    cursor: pointer;
+    fill: $accentColor;
+  }
+}
+
+.contact-form-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  transform: translate(50%);
+}

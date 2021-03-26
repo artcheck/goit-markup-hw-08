@@ -1,0 +1,15 @@
+@import "./base/normalise";
+@import "./utils/vars";
+@import "./base/base";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./components/modal";
+@import "./components/portfolio";
+
+
+
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
