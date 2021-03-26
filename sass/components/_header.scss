@@ -5,13 +5,15 @@
   &-box {
     padding: 25px 0px;
     display: flex;
-    justify-content: space-between;
-    max-width: -webkit-fill-available;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // max-width: -webkit-fill-available;
   }
 
   &-navigation {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
   }
 
