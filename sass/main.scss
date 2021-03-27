@@ -29,24 +29,26 @@
   .clients-list__item {
     width: 45%;
   }
-}
+  .footer-subscription{
+    &__form {
+    flex-wrap: wrap;
+  }
+  &__input {
+    width: 104%;
+  }
 
 @media screen and (min-width: 617px) and (max-width: 1230px) {
   .features{
     &-list__item {
     width: 50%;
-   }
-   &-title {
-     text-align: center;
-   }
-   &-description {
-     width: auto;
-   }
-  
-
   }
+  &-title {
+    text-align: center;
+  }
+  &-description {
+     width: auto;
+  }}
   .stack__section{
     display: none;
   }
-}
-
+  }}}
