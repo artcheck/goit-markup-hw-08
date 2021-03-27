@@ -13,19 +13,21 @@
   &-section {
     padding: 0px 0px;
     background-color: $primaryBackgroundColor;
+    display: flex;
+    justify-content: center;
   }
 
   &-container {
-    padding: 185px;
+    padding: 185px 0px;
   }
 
-  &-container__overlay {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hero_img.jpg');
-    background-size: cover;
-    background-position: center;
-    outline: 1px solid black;
-    background-color: $primaryBackgroundColor;
-  }
+  // &-container__overlay {
+  //   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hero_img.jpg');
+  //   background-size: cover;
+  //   background-position: center;
+  //   // outline: 1px solid black;
+  //   background-color: $primaryBackgroundColor;
+  // }
 
   &-title {
     font-family: Roboto;
