@@ -1259,9 +1259,15 @@ ul {
   .features-description {
     width: auto;
   }
+  .stack__section {
+    display: none;
+  }
+  .clients-list__item {
+    width: 45%;
+  }
 }
 
-@media screen and (min-width: 617px) and (max-width: 917px) {
+@media screen and (min-width: 617px) and (max-width: 1230px) {
   .features-list__item {
     width: 50%;
   }
@@ -1270,6 +1276,9 @@ ul {
   }
   .features-description {
     width: auto;
+  }
+  .stack__section {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

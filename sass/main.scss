@@ -10,26 +10,43 @@
 
 
 @media screen and (max-width: 617px) {
-    .features-list__item {
+    .features{
+    &-list__item {
      width: 100%;
     }
-    .features-title {
+    &-title {
       text-align: center;
     }
-    .features-description {
+    &-description {
       width: auto;
     }
-
+   
+    
+  }
+  .stack__section{
+    display: none;
+  }
+  .clients-list__item {
+    width: 45%;
+  }
 }
 
-@media screen and (min-width: 617px) and (max-width: 917px) {
-  .features-list__item {
+@media screen and (min-width: 617px) and (max-width: 1230px) {
+  .features{
+    &-list__item {
     width: 50%;
    }
-   .features-title {
+   &-title {
      text-align: center;
    }
-   .features-description {
+   &-description {
      width: auto;
    }
+  
+
+  }
+  .stack__section{
+    display: none;
+  }
 }
+
