@@ -18,7 +18,7 @@
   }
 
   &-logo__link {
-    padding-right: 93px;
+    padding-right: 2rem;
     font-family: roboto;
     font-style: normal;
     font-weight: 500;
@@ -46,6 +46,7 @@
     font-size: 14px;
     display: flex;
     text-decoration-line: none;
+    width: 100%;
   }
 
   &-nav-active__page {

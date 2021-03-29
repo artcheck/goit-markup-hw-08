@@ -1,8 +1,20 @@
+@media screen and (min-width: 320px) and (max-width: 617px) {
+  .portfolio-filter{
+    &__list{
+    justify-content: end;
+  }
+    &__item{
+      margin: 5px;
+    }
+  }
+}
+
 .portfolio {
 
   &-filter__list {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 50px;
   }
@@ -49,9 +61,10 @@
   &-list {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   &-list_style {
@@ -69,8 +82,8 @@
     background: #ffffff;
     border: 1px solid #eeeeee;
     box-sizing: border-box;
-    width: calc((100% - 60px) /3);
-    margin-bottom: 30px;
+    // width: calc((100% - 60px) /3);
+    margin: 15px;
   }
 
   &-list_link {
