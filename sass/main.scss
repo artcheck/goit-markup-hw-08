@@ -7,9 +7,15 @@
 @import "./components/modal";
 @import "./components/portfolio";
 
-@media screen and (min-width: 320px) and (max-width: 617px) {
+@media screen and (min-width: 220px) and (max-width: 617px) {
     .clients-list__item {
        width: 45%;
+    }
+    .header-nav__list {
+      display: none;
+    }
+    .header-contact__list {
+      display: none;
     }
 }
 
@@ -52,6 +58,21 @@
 }
 }
 @media screen and (min-width: 617px) and (max-width: 1200px) {
+  .header-logo__link {
+    padding-right: 40px;
+  }
+  .header-contact__list {
+    width: 150px;
+    justify-content: end;
+  }
+  .header-box {
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-navigation-list__item {
+    margin-right: 15%;
+  }
   .stack__section{
     display: none;
   }
