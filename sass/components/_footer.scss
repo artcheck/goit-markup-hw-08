@@ -143,6 +143,7 @@
 
   &-subscription__form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -155,7 +156,7 @@
 
   &-subscription__input {
     padding-left: 10px;
-    width: 358px;
+    width: 100%;
     background-color: $primaryBackgroundColor;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;

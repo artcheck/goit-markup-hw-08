@@ -20,7 +20,7 @@
   }
 
   &-container {
-    padding: 10px 0px;
+    padding: 15%;
   }
 
   // &-container__overlay {
@@ -36,7 +36,6 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    padding: 30px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -88,7 +87,7 @@
     background-color: $additionalBackgroundColour;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 10%;
+    border-radius: 10px;
   }
 
   &-list__item:nth-child(1):before {
@@ -166,7 +165,7 @@
     color: $primaryWhiteColor;
     display: block;
     position: absolute;
-    bottom: 0px;
+    bottom: 14px;
     width: 370px;
     height: 50px;
     background: rgba(47, 48, 58, 0.8);
