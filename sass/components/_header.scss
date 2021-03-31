@@ -3,17 +3,16 @@
   margin: 0 auto;
 
   &-box {
-    padding: 25px 0px;
+    padding: 25px 10px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
     // max-width: -webkit-fill-available;
   }
 
   &-navigation {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -120,7 +119,7 @@
   background-position: center;
   border-radius: 10%;
   position: absolute;
-  bottom: -32px;
+  bottom: -34px;
 }
 .logo-blue {
   color: $accentColor;

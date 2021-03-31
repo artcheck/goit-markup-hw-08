@@ -216,7 +216,12 @@
     top: 248px;
     left: 50px;
   }
-
+  &-icon_contact{
+    position: absolute;
+    top: 53%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
   &-icon_contact:hover {
     cursor: pointer;
     fill: $accentColor;
