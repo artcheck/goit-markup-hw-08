@@ -326,6 +326,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 50%;
 }
 
 .header-logo__link {
@@ -1273,7 +1274,8 @@ ul {
   .navigation__button {
     display: flex;
     width: 40px;
-    height: 35px;
+    bottom: 5px;
+    position: relative;
     border-style: none;
     background-color: transparent;
     background-image: url("../icons/menu_40px.svg");
@@ -1312,10 +1314,11 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    padding: 35px 10px 20px 40px;
   }
   .mobile-menu__close {
     position: absolute;
-    top: 35px;
+    padding-top: 10px;
     right: 20px;
     border: none;
     color: #212121;
@@ -1327,10 +1330,10 @@ ul {
   .mobile-menu__footer {
     display: flex;
     flex-direction: column;
-    margin: 30px;
   }
   .mobile-menu__social {
     display: flex;
+    padding-bottom: 15px;
   }
   .mobile-menu__link {
     text-decoration: none;
@@ -1374,10 +1377,9 @@ ul {
   }
   .mobile-nav__list {
     display: block;
-    padding: 40px 20px;
   }
   .mobile-navigation-list__item {
-    padding: 5px;
+    padding-bottom: 30px;
   }
   .mobile-contact__list {
     display: flex;
@@ -1412,7 +1414,7 @@ ul {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 47px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -1446,7 +1448,6 @@ ul {
   }
   .features-list__item {
     width: 100%;
-    margin-right: 20px;
   }
   .features-title {
     text-align: center;
