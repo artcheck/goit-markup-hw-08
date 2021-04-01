@@ -1,18 +1,18 @@
-@media screen and (min-width: 320px) and (max-width: 617px) {
-  .portfolio-filter{
-    &__list{
-    justify-content: end;
-  }
-    &__item{
-      margin: 5px;
-    }
-  }
-}
+// @media screen and (min-width: 320px) and (max-width: 617px) {
+//   .portfolio-filter{
+//     &__list{
+//     justify-content: unset;
+//   }
+//     &__item{
+//       margin: 5px;
+//     }
+//   }
+// }
 
 .portfolio {
 
   &-filter__list {
-    justify-content: center;
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -21,7 +21,7 @@
 
   &-filter__item {
     color: $titleTextColor;
-    margin: 0px 4px;
+    margin: 5px 5px;
     border-radius: 4px;
   }
 
